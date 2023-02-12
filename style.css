@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.red{
+    color: red;
+}
+.btn{
+    padding: 15px 32px;
+    background-color: #0066ffbb;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+}
