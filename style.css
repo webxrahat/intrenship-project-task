@@ -2,6 +2,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.fixed{
+    width: 1320px;
+    margin: auto;
+    padding: 0 12px;
+}
+.bg{
+    border: 1px red;
+    background-color: red;
+}
+.orange{
+    color: #eb5d1e!important;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .red{
     color: red;
@@ -13,4 +31,79 @@
     border-radius: 5px;
     border: none;
     letter-spacing: 1px;
+}
+.nav{
+    background-color: #ffffff;
+    height: 72px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    box-shadow: 5px 5px 10px 1px #d1d1cd3b; 
+}
+.logo{
+    font-size: 30px;
+    color: #7a6960;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.li{
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    color: #4e4039;
+}
+.get-btn{
+    background-color: #eb5d1e;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-left: 30px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-color: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+    
+}
+.banner{
+    width: 1320px;
+    height: 460px;
+    margin: auto;
+    padding: 0 12px;
+}
+.headline{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #4e4039;
+}
+.head-p{
+    color: #a08f86;
+    margin: 15px 0 0 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+.head-btn{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #eb5d1e;
+    border: none;
+}
+.img{
+    height: 100%;
+    width: 638px;
 }
