@@ -186,17 +186,189 @@
     width: 100%;
     height: 530px;
     background-color: #fef8f5;
-    padding: 0 60px;
 }
 .service-container{
     width: 1320px;
     height: 100%;
     margin: auto;
+    padding: 60px 0px;
 }
 .service-card{
     display: grid;
-    grid-template-columns: 245px 245px 245px 245px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     width: 1320px;
     margin: auto;
+}
+.box{
+    width: 306px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px red;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 3px solid #fff;
+
+}
+.box:hover{
+    border-bottom: 3px solid #ef7f4d;
+}
+.box-title{
+    color: #111;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.box-p{
+    font-size: 15px;
+    line-height: 28px;
+    color: #212529;
+}
+.box-i{
+    width: 48px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #ef7f4d;
+}
+.portfolio{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 60px 0;
+}
+.portfolio-section{
+    width: 1320px;
+    height: auto;
+    margin: auto;
+}
+.portfolio-link{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+    
+}
+.portfolio-p{
+    cursor: pointer;
+    margin: 0 15px 15px 0;
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #212529;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-p:hover{
+    color: #eb5d1e;
+}
+.portfolio-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    gap: 20px;
+}
+.portfolio-img{
+    width: 416px;
+    height: 312px;
+    border-radius: 8px ;
+    margin-bottom: 10px;
+}
+.team-img{
+    width: 306px;
+    height: 306px;
+}
+.clients-logo{
+    width: 116px;
+    height: 41px;
+}
+.clients-section{
+    width: 100%;
+    height: auto;
+    background-color: #fef8f5;
+    padding: 60px 0;
+}
+.map{
+    width: 100%;
+    height: 290px;
+    background-color: #5a6570;
+}
+.contact-info-card{
+    border-top: 3px solid #eb5d1e;
+    border-bottom: 3px solid #eb5d1e;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+.name-input{
+    height: 44px;
+    width: 331px;
+    border: 1px solid #ced4da;
+}
+.info-name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.name-p{
+    margin-left: 15px;
+}
+.input-head{
+    margin-top: 1.5rem;
+    padding-bottom: 5px;
+}
+.subject-input{
+    height: 44px;
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form-int{
+    padding-bottom: 8px;
+}
+.message-input{
+    width: 100%;
+    height: 232px;
+    border: 1px solid #ced4da;
+}
+.btn-center{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-i{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.icon-circle{
+    width: 44px;
+    height: 44px;
+    background: #fdf1ec;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-p{
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ab9d95;
+}
+.info-h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #7a6960;
+
 }
