@@ -195,6 +195,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
+  justify-items: center;
   width: 1320px;
   margin: auto;
 }
@@ -488,7 +489,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .clients-section.copyright {
+  .clients-section{
     display: none;
   }
 }
