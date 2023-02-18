@@ -70,6 +70,7 @@
   height: 70vh;
   background-color: #fef8f5;
   border-bottom: 2px solid #fcebe3;
+  position: relative;
 }
 .banner {
   width: 1320px;
@@ -105,6 +106,16 @@
 .img {
   height: 100%;
   width: 638px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s; 
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example {
+  from {top: -5px;}
+  to {top: 10px;}
 }
 .about {
   width: 100%;
@@ -264,24 +275,83 @@
   color: #eb5d1e;
 }
 .portfolio-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
   margin: auto;
   gap: 20px;
+  
 }
-.portfolio-img {
+.container{
+  position: relative;
+}
+.containe{
+  position: relative;
+}
+.image {
   width: 416px;
   height: 312px;
   border-radius: 8px;
-  margin-bottom: 10px;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  border-radius: 8px;
+  background: rgba(95, 59, 39, 0.945);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.overla {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 40%, rgba(78, 64, 57, 0.95) 45%, rgba(255, 255, 255, 0) 100%);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  
+}
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+  opacity: 0.3;
+}
+.containe:hover .overla {
+  width: 100%;
+  left: 0;
+  opacity: 0.3;
 }
 .team-img {
   width: 306px;
   height: 306px;
+  display: block;
 }
 .clients-logo {
   width: 116px;
   height: 41px;
+  opacity: .3;
+  transition: all .3s ease-in-out;
+}
+.clients-logo:hover {
+  width: 116px;
+  height: 41px;
+  opacity: .8;
+  cursor: pointer;
 }
 .clients-section {
   width: 100%;
@@ -488,23 +558,42 @@ footer a:hover {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
   .clients-section{
     display: none;
   }
-}
-
-@media only screen and (max-width: 600px) {
+  .nav{
+    box-shadow: none;
+  }
+  .name-input{
+    width: 100%;
+  }
   .li {
     display: none;
   }
   .logo {
     margin: auto;
   }
-  .img {
-    width: 80%;
-    margin: auto;
+  .hero{
+    height: 100vh;
+    width: auto;
+    margin: 5px;
+
   }
+  .img {
+    width: 100%;
+    max-height: 50%;
+    margin: auto;
+    animation: none;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+  }
+  .hero-media{
+    position: absolute;
+    top: 500px;
+  }
+ 
   .banner {
     width: 100%;
     height: 100%;
@@ -512,6 +601,7 @@ footer a:hover {
     padding: 0 12px;
     display: flex;
     flex-direction: column-reverse;
+    position: relative;
   }
   .hero-media {
     height: 100%;
@@ -559,7 +649,8 @@ footer a:hover {
   }
   .portfolio-images {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .portfolio-img {
     width: 100%;
@@ -591,5 +682,8 @@ footer a:hover {
   }
   .copyright .credits {
     font-size: 14px;
+  }
+  .info-name{
+    gap: 0;
   }
 }
