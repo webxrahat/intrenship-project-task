@@ -384,7 +384,8 @@
   gap: 20px;
 }
 .name-p {
-  margin-left: 15px;
+  margin-left: 12px;
+  color: #5a6570;
 }
 .input-head {
   margin-top: 1.5rem;
