@@ -11,34 +11,62 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <title>Nine stars</title>
   </head>
   <body>
     <header>
       <section>
-        <nav class="nav">
-          <div class="fixed flex">
-            <div class="logo">Ninestars</div>
-            <div class="flex li">
-              <div class="flex">
-                <li><a class="a orange" href="#">Home</a></li>
-                <li><a class="a" href="#">About Us</a></li>
-                <li><a class="a" href="#">Services</a></li>
-                <li><a class="a" href="#">Portfolio</a></li>
-                <li><a class="a" href="#">Team</a></li>
-                <li><a class="a" href="#">Drop Down</a></li>
-                <li><a class="a" href="#">Contact</a></li>
-              </div>
-              <div>
-                <button class="get-btn">Get Started</button>
-              </div>
+        <nav class="navbar container-fluid navbar-expand-lg bg-white shadow-sm p-3">
+          <div class="container">
+            <a class="navbar-brand" href="#"><h2 class="text-muted m-0 fw-normal">Ninestars</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-lg-0">
+                <li class="nav-item pe-lg-3">
+                  <a class="nav-link active text-orange" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item pe-lg-3">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item pe-lg-3">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item pe-lg-3">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item pe-lg-3">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item dropdown pe-lg-3">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Contact</a>
+                </li>
+              </ul>
+             <a href="#"> <button class="get-btn" type="submit">Get Started</button></a>
             </div>
           </div>
         </nav>
         <head>
-          <div class="hero">
-            <div class="banner flex">
-              <div class="hero-media">
+          <div class="container-fluid bg-cream border-cream position-relative py-xxl-5">
+            <div class="container">
+             <div class="row ju">
+              <div class="col-lg-6 col">
                 <div>
                   <h1 class="headline">
                     Bettter digital experience with Ninestars
@@ -50,9 +78,10 @@
                 </h2>
                 <button class="head-btn">Get Started</button>
               </div>
-              <div>
+              <div class="col-lg-6 col">
                 <img class="img" src="./assets/hero-img.svg" alt="" />
               </div>
+             </div>
             </div>
           </div>
         </head>
@@ -159,97 +188,59 @@
             <p class="portfolio-p">Web</p>
           </div>
           <div class="portfolio-images">
-           <div class="container">
-            <img
-            class="image"
-            src="/assets/portfolio-1.jpg"
-            alt="..."
-          />
-          <div class="overlay">
-            <div class="text">Hello World</div>
-          </div>
-           </div>
             <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-2.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-            </div>
-            <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-3.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-            </div>
-            <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-4.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-            </div>
-            <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-5.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-            </div>
-            <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-6.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-            </div>
-            <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-7.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-            </div>
-            <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-8.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-            </div>
-            <div class="container">
-              <img
-              class="image"
-              src="/assets/portfolio-9.jpg"
-              alt="..."
-            />
-            <div class="overlay">
-              <div class="text">
-               Hello World
+              <img class="image" src="/assets/portfolio-1.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
               </div>
             </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-2.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-3.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-4.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-5.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-6.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-7.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-8.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+            <div class="container">
+              <img class="image" src="/assets/portfolio-9.jpg" alt="..." />
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
             </div>
           </div>
         </div>
@@ -263,21 +254,21 @@
           </div>
           <div class="flex flex-1">
             <div class="containe">
-            <img class="team-img" src="/assets/team-1.jpg" alt="..." />
-            <div class="overla">Hello</div>
-          </div>
-          <div class="containe">
-            <img class="team-img" src="/assets/team-2.jpg" alt="..." />
-          <div class="overla">Hello</div>
-          </div>
-          <div class="containe">
-            <img class="team-img" src="/assets/team-3.jpg" alt="..." />
-          <div class="overla">Hello</div>
-          </div>
-          <div class="containe">
-            <img class="team-img" src="/assets/team-4.jpg" alt="..." />
-          <div class="overla">Hello</div>
-          </div>
+              <img class="team-img" src="/assets/team-1.jpg" alt="..." />
+              <div class="overla">Hello</div>
+            </div>
+            <div class="containe">
+              <img class="team-img" src="/assets/team-2.jpg" alt="..." />
+              <div class="overla">Hello</div>
+            </div>
+            <div class="containe">
+              <img class="team-img" src="/assets/team-3.jpg" alt="..." />
+              <div class="overla">Hello</div>
+            </div>
+            <div class="containe">
+              <img class="team-img" src="/assets/team-4.jpg" alt="..." />
+              <div class="overla">Hello</div>
+            </div>
           </div>
         </div>
       </section>
@@ -487,5 +478,7 @@
         </div>
       </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

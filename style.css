@@ -14,6 +14,12 @@
   background-color: red;
 }
 .orange {
+  background-color: #eb5d1e !important;
+}
+.text-orange {
+  color: #eb5d1e !important;
+}
+.nav-link:hover{
   color: #eb5d1e !important;
 }
 .flex {
@@ -32,15 +38,21 @@
   border: none;
   letter-spacing: 1px;
 }
-.nav {
+.bg-cream{
+  background-color: #fef8f5 !important;
+}
+.border-cream{
+  border-bottom: 2px solid #fcebe3;
+}
+/* .nav {
   background-color: #ffffff;
   height: 72px;
   width: 100%;
   align-items: center;
   display: flex;
   box-shadow: 5px 5px 5px 8px gray;
-}
-.logo {
+} */
+/* .logo {
   font-size: 30px;
   color: #7a6960;
   font-weight: 400;
@@ -48,13 +60,13 @@
 }
 .li {
   list-style: none;
-}
-.a {
+} */
+/* .a {
   text-decoration: none;
   padding: 10px 0 10px 30px;
   font-size: 15px;
   color: #4e4039;
-}
+} */
 .get-btn {
   background-color: #eb5d1e;
   color: #ffffff;
