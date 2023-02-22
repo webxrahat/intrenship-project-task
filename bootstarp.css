@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-orange {
+  color: #eb5d1e !important;
+}
+
+.nav-link:hover {
+  color: #eb5d1e !important;
+}
+
+.bg-cream {
+  background-color: #fef8f5 !important;
+}
+
+.border-cream {
+  border-bottom: 2px solid #fcebe3;
+}
+
+.get-btn {
+  background-color: #eb5d1e;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 50px;
+  margin-left: 30px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.head-btn {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #eb5d1e;
+  border: none;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  border: none;
+  background: #eb5d1e;
+  display: block;
+  margin: auto;
+}
+
+.headline {
+  color: #4e4039;
+}
+
+.head-p {
+  color: #a08f86;
+}
+
+.about-text {
+  font-weight: 700;
+  font-size: 34px;
+  color: #4e4039;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.about-p {
+  font-size: 15px;
+  color: #5a6570;
+  margin-bottom: 1rem;
+}
+
+.about-h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #7a6960;
+}
+.services-h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 0;
+  line-height: 1px;
+  margin-bottom: 15px;
+  color: #c2b7b1;
+}
+.service-p {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4e4039;
+}
+.center {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+.box-title {
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.box-p {
+  font-size: 15px;
+  line-height: 28px;
+  color: #212529;
+}
+.portfolio-link {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+.portfolio-p {
+  cursor: pointer;
+  margin: 0 15px 15px 0;
+  display: inline-block;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #212529;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-p:hover {
+  color: #eb5d1e;
+}
+.clients-logo {
+  width: 116px;
+  height: 41px;
+  opacity: 0.3;
+  transition: all 0.3s ease-in-out;
+}
+
+.clients-logo:hover {
+  width: 116px;
+  height: 41px;
+  opacity: 0.8;
+}
+.subscribe-btn {
+  border: 0;
+  font-size: 16px;
+  padding: 9px 16px;
+  background: #eb5d1e;
+  color: #fff;
+  border-radius: 4px;
+}
+.footer-h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  color: #212529;
+}
+
+.footer-p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #5c5c5c;
+}
+
+.footer-h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #212529;
+  padding-bottom: 12px;
+}
+
+footer li {
+  padding: 10px 0;
+  font-size: 14px;
+  list-style: none;
+  color: #eb5d1e;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5c5c5c;
+  margin-left: 5px;
+}
+
+footer a:hover {
+  color: #eb5d1e;
+}
+
+.footer-i {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-m-div {
+  margin: 10px 10px 50px 0;
+}
+
+.i-circle {
+  width: 44px;
+  height: 44px;
+  background: #eb5d1e;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+.i-circle:hover{
+  background: #eb946f;
+}
+
+
+.newsletter-p {
+  font-size: 15px;
+  color: #212529;
+}
+.center-newsletter {
+  text-align: center;
+}
+
+.newsletter-h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #4e4039;
+}
+.btn-center {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-i {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.icon-circle {
+  width: 44px;
+  height: 44px;
+  background: #fdf1ec;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+.icon-circle:hover {
+  background: #eb5d1e;
+  
+}
+
+.info-p {
+  padding: 0 0 10px 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ab9d95;
+}
+
+.info-h4 {
+  padding: 0 0 0 20px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #7a6960;
+}
+
+.icon-div {
+  margin-bottom: 30px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 20px;
+}
+.map {
+  width: 100%;
+  height: 330px;
+  background-color: #5a6570;
+  margin-top: 20px;
+}
