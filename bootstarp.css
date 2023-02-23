@@ -83,6 +83,7 @@
   margin-top: 5px;
   color: #7a6960;
 }
+
 .services-h2 {
   font-size: 24px;
   font-weight: 700;
@@ -91,6 +92,7 @@
   margin-bottom: 15px;
   color: #c2b7b1;
 }
+
 .service-p {
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -98,22 +100,26 @@
   font-weight: 700;
   color: #4e4039;
 }
+
 .center {
   text-align: center;
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
+
 .box-title {
   color: #111;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
+
 .box-p {
   font-size: 15px;
   line-height: 28px;
   color: #212529;
 }
+
 .portfolio-link {
   display: flex;
   justify-content: center;
@@ -136,6 +142,7 @@
 .portfolio-p:hover {
   color: #eb5d1e;
 }
+
 .clients-logo {
   width: 116px;
   height: 41px;
@@ -148,6 +155,7 @@
   height: 41px;
   opacity: 0.8;
 }
+
 .subscribe-btn {
   border: 0;
   font-size: 16px;
@@ -156,6 +164,7 @@
   color: #fff;
   border-radius: 4px;
 }
+
 .footer-h3 {
   font-size: 1.75rem;
   font-weight: 400;
@@ -214,7 +223,8 @@ footer a:hover {
   align-items: center;
   transition: all .3s ease-in-out;
 }
-.i-circle:hover{
+
+.i-circle:hover {
   background: #eb946f;
 }
 
@@ -223,6 +233,7 @@ footer a:hover {
   font-size: 15px;
   color: #212529;
 }
+
 .center-newsletter {
   text-align: center;
 }
@@ -235,6 +246,7 @@ footer a:hover {
   font-weight: 600;
   color: #4e4039;
 }
+
 .btn-center {
   text-align: center;
   margin-bottom: 40px;
@@ -256,9 +268,10 @@ footer a:hover {
   align-items: center;
   transition: all .3s ease-in-out;
 }
+
 .icon-circle:hover {
   background: #eb5d1e;
-  
+
 }
 
 .info-p {
@@ -279,14 +292,123 @@ footer a:hover {
 .icon-div {
   margin-bottom: 30px;
 }
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 20px;
 }
+
 .map {
   width: 100%;
   height: 330px;
   background-color: #5a6570;
   margin-top: 20px;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.box {
+  transition: all 0.3s ease-in-out;
+  border-bottom: 3px solid #fff;
+}
+
+.box:hover {
+  border-bottom: 3px solid #ef7f4d;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  border-radius: 8px;
+  background-color: #6c564ba3;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+.portfolio-container{
+  position: relative;
+} 
+
+.portfolio-container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.overla {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background: linear-gradient(0deg,
+      rgba(78, 64, 57, 0.95) 40%,
+      rgba(78, 64, 57, 0.95) 45%,
+      rgba(255, 255, 255, 0) 100%);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.portfolio-container:hover .overla {
+  width: 100%;
+  left: 0;
+  opacity: 0.3;
+}
+
+.tex {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+@keyframes example {
+  from {
+    top: -5px;
+  }
+
+  to {
+    top: 10px;
+  }
+}
+@media only screen and (max-width: 800px){
+  .img{
+    animation: none;
+  }
 }
