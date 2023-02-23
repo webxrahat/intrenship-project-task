@@ -305,6 +305,7 @@ footer a:hover {
   background-color: #5a6570;
   margin-top: 20px;
 }
+
 .img {
   height: 100%;
   width: 100%;
@@ -315,6 +316,7 @@ footer a:hover {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
 .box {
   transition: all 0.3s ease-in-out;
   border-bottom: 3px solid #fff;
@@ -336,6 +338,7 @@ footer a:hover {
   height: 100%;
   transition: .5s ease;
 }
+
 .text {
   color: white;
   font-size: 20px;
@@ -347,6 +350,7 @@ footer a:hover {
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
+
 .image {
   width: 100%;
   height: auto;
@@ -356,9 +360,9 @@ footer a:hover {
 }
 
 
-.portfolio-container{
+.portfolio-container {
   position: relative;
-} 
+}
 
 .portfolio-container:hover .overlay {
   width: 100%;
@@ -379,6 +383,7 @@ footer a:hover {
   height: 100%;
   transition: 0.5s ease;
 }
+
 .portfolio-container:hover .overla {
   width: 100%;
   left: 0;
@@ -407,8 +412,9 @@ footer a:hover {
     top: 10px;
   }
 }
-@media only screen and (max-width: 800px){
-  .img{
+
+@media only screen and (max-width: 800px) {
+  .img {
     animation: none;
   }
 }
