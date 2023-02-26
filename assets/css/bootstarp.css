@@ -613,8 +613,8 @@ footer a:hover {
   left: 0;
   right: 100%;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.542) 100%,
-      rgba(0, 0, 0, 0.534) 95%,
+      rgba(88, 81, 81, 0.542) 100%,
+      rgb(76, 72, 72) 95%,
       rgba(255, 255, 255, 0) 100%);
   overflow: hidden;
   width: 0;
@@ -623,7 +623,7 @@ footer a:hover {
 }
 
 .portfolio-container:hover .over {
-  width: 60px;
+  width: 50px;
   left: 0;
   opacity: 0.9;
 }
