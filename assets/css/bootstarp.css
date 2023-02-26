@@ -159,8 +159,12 @@ a:hover {
     font-size: 1.5rem !important;
   }
 
-  #contact {
+  #contact,
+  #team {
     padding: 0 !important;
+  }
+  #faq{
+    padding: 30px 0;
   }
 }
 
@@ -508,6 +512,7 @@ footer a:hover {
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
+
 .plus {
   display: flex;
   justify-content: center;
@@ -527,11 +532,13 @@ footer a:hover {
   white-space: nowrap;
   transition: all .2s ease-in-out;
 }
-.plus:hover{
+
+.plus:hover {
   background-color: #eb5d1e;
   color: #fff;
   cursor: pointer;
 }
+
 .link {
   display: flex;
   justify-content: center;
@@ -551,11 +558,13 @@ footer a:hover {
   white-space: nowrap;
   transition: all .2s ease-in-out;
 }
-.link:hover{
+
+.link:hover {
   background-color: #eb5d1e;
   color: #fff;
   cursor: pointer;
 }
+
 .image {
   width: 100%;
   height: auto;
@@ -639,10 +648,12 @@ footer a:hover {
   white-space: nowrap;
   transition: all .2s ease-in-out;
 }
-.world:hover{
+
+.world:hover {
   color: #ef7f4d;
   cursor: pointer;
 }
+
 .w {
   color: #fff;
   position: absolute;
@@ -654,10 +665,12 @@ footer a:hover {
   white-space: nowrap;
   transition: all .2s ease-in-out;
 }
-.w:hover{
+
+.w:hover {
   color: #ef7f4d;
   cursor: pointer;
 }
+
 .r {
   color: #fff;
   position: absolute;
@@ -669,10 +682,12 @@ footer a:hover {
   white-space: nowrap;
   transition: all .2s ease-in-out;
 }
-.r:hover{
+
+.r:hover {
   color: #ef7f4d;
   cursor: pointer;
 }
+
 .l {
   color: #fff;
   position: absolute;
@@ -684,10 +699,12 @@ footer a:hover {
   white-space: nowrap;
   transition: all .2s ease-in-out;
 }
-.l:hover{
+
+.l:hover {
   color: #ef7f4d;
   cursor: pointer;
 }
+
 @keyframes example {
   0% {
     transform: translateY(10px);
@@ -728,4 +745,34 @@ footer a:hover {
 
 #myBtn:hover {
   background-color: #eb5c1ebc;
+}
+
+
+.accordion {
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 18px;
+  transition: all 0.3s ease-in-out;
+}
+.accordion:hover {
+  cursor: pointer;
+  color: #eb5d1e;
+}
+
+/* .active, .accordion:hover {
+  background-color: #ccc; 
+} */
+
+.panel {
+  padding: 0 0 0 30px;
+  display: none;
+  overflow: hidden;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
 }
