@@ -4,20 +4,23 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
+
 #services,
 #portfolio,
 #team,
 #contact,
-#about{
-  padding: 70px 0px!important;
+#about {
+  padding: 70px 0px !important;
 }
-#home{
-  margin: 60px 0px!important;
+
+#home {
+  margin: 60px 0px !important;
 }
 
 .navbar {
   padding: 0;
 }
+
 a {
   color: #eb5d1e;
   text-decoration: none !important;
@@ -39,6 +42,7 @@ a:hover {
 .navbar li {
   position: relative;
 }
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -78,6 +82,7 @@ a:hover {
   color: #eb5d1e;
   transition: all 0.3s;
 }
+
 .navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
@@ -106,6 +111,7 @@ a:hover {
     left: -100%;
   }
 }
+
 .text-orange {
   color: #eb5d1e !important;
 }
@@ -132,26 +138,32 @@ a:hover {
   font-size: 15px;
   cursor: pointer;
 }
-@media screen and (max-width:992px){
-  .get-btn{
+
+@media screen and (max-width:992px) {
+  .get-btn {
     width: 100%;
     margin: 0;
   }
-  .head-btn{
+
+  .head-btn {
     margin-bottom: 180px;
   }
-  .hero-media{
-   padding-left: 0 !important;
-   
+
+  .hero-media {
+    padding-left: 0 !important;
+
   }
+
   .headline {
     color: #4e4039;
     font-size: 1.5rem !important;
   }
-  #contact{
+
+  #contact {
     padding: 0 !important;
   }
 }
+
 input[type=text] {
   width: 100%;
   box-sizing: border-box;
@@ -161,20 +173,24 @@ input[type=text] {
   /* transition: all 0.3s; */
   outline: 0;
 }
+
 input[type=text]:focus {
   outline: 0.5px solid #0a8dff95;
   border-radius: 1px;
 }
+
 textarea {
   width: 100%;
   box-sizing: border-box;
   border: 3px solid #ccc;
   outline: none;
 }
+
 textarea:focus {
   outline: 0.5px solid #0a8dff95;
   border-radius: 1px;
 }
+
 .head-btn {
   font-weight: 500;
   font-size: 16px;
@@ -187,7 +203,7 @@ textarea:focus {
   color: #fff;
   background: #eb5d1e;
   border: none;
-  
+
 }
 
 .line {
@@ -454,7 +470,7 @@ footer a:hover {
   height: 100%;
   width: 100%;
   position: relative;
-  animation: example 1s ease-in-out infinite alternate-reverse both;
+  animation: example 2s ease-in-out infinite alternate-reverse both;
 }
 
 .box {
@@ -485,14 +501,61 @@ footer a:hover {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
-
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #ff7b00;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+}
+.plus:hover{
+  background-color: #eb5d1e;
+  color: #fff;
+  cursor: pointer;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #ff7b00;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+}
+.link:hover{
+  background-color: #eb5d1e;
+  color: #fff;
+  cursor: pointer;
+}
 .image {
   width: 100%;
   height: auto;
@@ -516,7 +579,7 @@ footer a:hover {
   bottom: 0;
   left: 100%;
   right: 0;
-  background: linear-gradient(0deg,
+  background: linear-gradient(360deg,
       rgba(78, 64, 57, 0.95) 40%,
       rgba(78, 64, 57, 0.95) 45%,
       rgba(255, 255, 255, 0) 100%);
@@ -529,7 +592,7 @@ footer a:hover {
 .portfolio-container:hover .overla {
   width: 100%;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .tex {
@@ -544,7 +607,87 @@ footer a:hover {
   white-space: nowrap;
 }
 
+.over {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.542) 100%,
+      rgba(0, 0, 0, 0.534) 95%,
+      rgba(255, 255, 255, 0) 100%);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
 
+.portfolio-container:hover .over {
+  width: 60px;
+  left: 0;
+  opacity: 0.9;
+}
+
+.world {
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+}
+.world:hover{
+  color: #ef7f4d;
+  cursor: pointer;
+}
+.w {
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+}
+.w:hover{
+  color: #ef7f4d;
+  cursor: pointer;
+}
+.r {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+}
+.r:hover{
+  color: #ef7f4d;
+  cursor: pointer;
+}
+.l {
+  color: #fff;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+}
+.l:hover{
+  color: #ef7f4d;
+  cursor: pointer;
+}
 @keyframes example {
   0% {
     transform: translateY(10px);
@@ -586,5 +729,3 @@ footer a:hover {
 #myBtn:hover {
   background-color: #eb5c1ebc;
 }
-
-
